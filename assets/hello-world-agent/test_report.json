@@ -1,0 +1,56 @@
+{
+  "summary": {
+    "total": 112,
+    "passed": 112,
+    "failed": 0,
+    "score": 100.0
+  },
+  "sections": [
+    {
+      "name": "Structure Tests",
+      "marker": "structure",
+      "total": 5,
+      "passed": 5,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "tests": [
+        {"name": "test_agent_directory_exists", "outcome": "passed", "duration": 0.001},
+        {"name": "test_app_directory_exists", "outcome": "passed", "duration": 0.001},
+        {"name": "test_requirements_txt_exists", "outcome": "passed", "duration": 0.001},
+        {"name": "test_no_pylint_errors", "outcome": "passed", "duration": 18.2},
+        {"name": "test_imports_resolvable", "outcome": "passed", "duration": 0.05}
+      ]
+    },
+    {
+      "name": "Server Tests",
+      "marker": "server",
+      "total": 0,
+      "passed": 0,
+      "failed": 0,
+      "skipped": 0,
+      "score": 0.0,
+      "tests": []
+    },
+    {
+      "name": "Agent Tests",
+      "marker": "agent_tests",
+      "total": 107,
+      "passed": 107,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100.0,
+      "coverage": 76.04,
+      "tests": [
+        {"name": "test_agent_responds_hello_world", "outcome": "passed", "duration": 0.12},
+        {"name": "test_agent_responds_hello_world_any_input", "outcome": "passed", "duration": 0.35},
+        {"name": "test_agent_stream_yields_hello_world", "outcome": "passed", "duration": 0.11},
+        {"name": "test_m1_milestone_logged", "outcome": "passed", "duration": 0.12},
+        {"name": "test_m2_milestone_logged", "outcome": "passed", "duration": 0.11},
+        {"name": "test_agent_error_handling", "outcome": "passed", "duration": 0.11},
+        {"name": "test_system_prompt_contains_hello_world", "outcome": "passed", "duration": 0.09},
+        {"name": "test_agent_instantiation", "outcome": "passed", "duration": 0.09}
+      ]
+    }
+  ]
+}
