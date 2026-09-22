@@ -2,7 +2,7 @@ apiVersion: solution.sap/v1
 kind: Solution
 
 metadata:
-  name: hello-world-cf85b
+  name: hello-world-cf85c
   version: 1.0.0
   description: Minimal Hello World AI agent on SAP BTP for platform validation
 
